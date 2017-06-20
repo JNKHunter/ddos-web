@@ -1,0 +1,26 @@
+{
+  "name": "ddos-web",
+  "version": "1.0.0",
+  "description": "Display ddos info dashboard",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JNKHunter/ddos-web.git"
+  },
+  "author": "John Hunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JNKHunter/ddos-web/issues"
+  },
+  "homepage": "https://github.com/JNKHunter/ddos-web#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "redis": "^2.7.1"
+  }
+}
